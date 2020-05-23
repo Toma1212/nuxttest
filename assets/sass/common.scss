@@ -1,14 +1,480 @@
-
 body {
-
-    color: $body-color;
-
+  background-color: $body-color;
+  overflow-x: hidden;
 }
 
-.nav-color{
-    color: $body-color;
+::selection {
+  background: lighten($color: $primary, $amount: 10);
+  color: $white;
 }
 
-.btn-color {
-    color: $white;
+/* preloader */
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  vertical-align: middle;
+  border: 0;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+a.text-primary:hover{
+  color: $primary !important;
+}
+
+a,
+button,
+select {
+  cursor: pointer;
+  transition: .2s ease;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+a:hover {
+  color: $primary;
+}
+
+.slick-slide {
+  outline: 0;
+}
+
+.section {
+  padding-top: 150px;
+  padding-bottom: 150px;
+
+  &-sm {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  &-title {
+    margin-bottom: 30px;
+  }
+}
+
+.bg-cover {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.border-primary {
+  border-color: $border-color !important;
+}
+
+/* overlay */
+
+.overlay {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: .5;
+  }
+}
+
+.outline-0 {
+  outline: 0 !important;
+}
+
+.d-unset {
+  display: unset !important;
+}
+
+.bg-primary {
+  background: $primary !important;
+}
+
+.text-primary {
+  color: $primary!important;
+}
+
+.text-dark {
+  color: $text-color-dark !important;
+}
+
+.text-light {
+  color: $text-color-light !important;
+}
+
+.text-color {
+  color: $text-color;
+}
+
+
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+
+.mb-40 {
+  margin-bottom: 40px !important;
+}
+
+.mb-50 {
+  margin-bottom: 50px !important;
+}
+
+.mb-60 {
+  margin-bottom: 60px !important;
+}
+
+.mb-70 {
+  margin-bottom: 70px !important;
+}
+
+.mb-80 {
+  margin-bottom: 80px !important;
+}
+
+.mb-90 {
+  margin-bottom: 90px !important;
+}
+
+.mb-100 {
+  margin-bottom: 100px !important;
+}
+
+.mg-0 {
+    margin: 0 !important;
+}
+
+.mg-5 {
+    margin: 5px !important;
+}
+
+.mg-10 {
+    margin: 10px !important;
+}
+
+.mg-15 {
+    margin: 15px !important;
+}
+
+.mg-20 {
+    margin: 20px !important;
+}
+
+.mg-25 {
+    margin: 25px !important;
+}
+
+.mg-30 {
+    margin: 30px !important;
+}
+
+.mt-0 {
+    margin-top: 0 !important;
+}
+
+.mt-5 {
+    margin-top: 5px !important;
+}
+
+.mt-10 {
+    margin-top: 10px !important;
+}
+
+.mt-15 {
+    margin-top: 15px !important;
+}
+
+.mt-20 {
+    margin-top: 20px !important;
+}
+
+.mt-25 {
+    margin-top: 25px !important;
+}
+
+.mt-30 {
+    margin-top: 30px !important;
+}
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.mb-5 {
+    margin-bottom: 5px !important;
+}
+
+.mb-10 {
+    margin-bottom: 10px !important;
+}
+
+.mb-15 {
+    margin-bottom: 15px !important;
+}
+
+.mb-20 {
+    margin-bottom: 20px !important;
+}
+
+.mb-25 {
+    margin-bottom: 25px !important;
+}
+
+.mb-30 {
+    margin-bottom: 30px !important;
+}
+
+.mr-0 {
+    margin-right: 0 !important;
+}
+
+.mr-5 {
+    margin-right: 5px !important;
+}
+
+.mr-10 {
+    margin-right: 10px !important;
+}
+
+.mr-15 {
+    margin-right: 15px !important;
+}
+
+.mr-20 {
+    margin-right: 20px !important;
+}
+
+.mr-25 {
+    margin-right: 25px !important;
+}
+
+.mr-30 {
+    margin-right: 30px !important;
+}
+
+.mr-40 {
+    margin-right: 40px !important;
+}
+
+.mr-50 {
+    margin-right: 50px !important;
+}
+
+.mr-100 {
+    margin-right: 50px !important;
+}
+
+.ml-0 {
+    margin-right: 0 !important;
+}
+
+.ml-5 {
+    margin-right: 5px !important;
+}
+
+.ml-10 {
+    margin-right: 10px !important;
+}
+
+.ml-15 {
+    margin-right: 15px !important;
+}
+
+.ml-20 {
+    margin-right: 20px !important;
+}
+
+.ml-25 {
+    margin-right: 25px !important;
+}
+
+.ml-30 {
+    margin-right: 30px !important;
+}
+
+.ml-40 {
+    margin-right: 40px !important;
+}
+
+.ml-50 {
+    margin-right: 50px !important;
+}
+
+.ml-100 {
+    margin-right: 50px !important;
+}
+.pd-0 {
+    padding: 0 !important;
+}
+
+.pd-5 {
+    padding: 5px !important;
+}
+
+.pd-10 {
+    padding: 10px !important;
+}
+
+.pd-15 {
+    padding: 15px !important;
+}
+
+.pd-20 {
+    padding: 20px !important;
+}
+
+.pd-25 {
+    padding: 25px !important;
+}
+
+.pd-30 {
+    padding: 30px !important;
+}
+
+.pt-0 {
+    padding-top: 0 !important;
+}
+
+.pt-5 {
+    padding-top: 5px !important;
+}
+
+.pt-10 {
+    padding-top: 10px !important;
+}
+
+.pt-15 {
+    padding-top: 15px !important;
+}
+
+.pt-20 {
+    padding-top: 20px !important;
+}
+
+.pt-25 {
+    padding-top: 25px !important;
+}
+
+.pt-30 {
+    padding-top: 30px !important;
+}
+
+.pt-35 {
+    padding-top: 35px !important;
+}
+
+.pt-40 {
+    padding-top: 40px !important;
+}
+
+.pt-45 {
+    padding-top: 45px !important;
+}
+
+.pt-50 {
+    padding-top: 50px !important;
+}
+
+.pb-0 {
+    padding-bottom: 0 !important;
+}
+
+.pb-5 {
+    padding-bottom: 5px !important;
+}
+
+.pb-10 {
+    padding-bottom: 10px !important;
+}
+
+.pb-15 {
+    padding-bottom: 15px !important;
+}
+
+.pb-20 {
+    padding-bottom: 20px !important;
+}
+
+.pb-25 {
+    padding-bottom: 25px !important;
+}
+
+.pb-30 {
+    padding-bottom: 30px !important;
+}
+
+.pb-35 {
+    padding-bottom: 35px !important;
+}
+
+.pb-40 {
+    padding-bottom: 40px !important;
+}
+
+.pb-45 {
+    padding-bottom: 45px !important;
+}
+
+.pb-50 {
+    padding-bottom: 50px !important;
+}
+
+.zindex-1 {
+  z-index: 1;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.border-primary {
+  border-color: $primary !important;
+}
+
+.font-weight-medium{
+  font-weight: 500 !important;
+}
+
+/* form control */
+.form-control{
+  height: 50px;
+  border-radius: 0;
+  &:focus{
+    box-shadow: none;
+    outline: 0;
+    border-color: $primary;
+  }
+  &::placeholder {
+    font-size: 13px;
+  }
+}
+
+textarea.form-control{
+  height: 150px;
+}
+
+a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-primary:hover{
+  background: $primary !important;
+}
+
+.bg-content {
+    background-color: $border-color;
 }

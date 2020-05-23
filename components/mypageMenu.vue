@@ -1,7 +1,7 @@
 <template>
     <div class="mt-2">
         <div class="card-body pl-3 text-center">
-            <font-awesome-icon icon="user" class="my-5"/>
+            <sapn><font-awesome-icon  class="text-primary mt-5" icon="user"/></sapn>
             <h5 class="card-title mt-4">NSTOOL</h5>
             <h6 class="card-title mb-4">CEO</h6>
             <div class="row"> 
@@ -12,7 +12,6 @@
         <nav class="pl-3 pt-3">
             <nuxt-link class="nav-link py-3 nav-color" to="/mypages/1/"><sapn><font-awesome-icon icon="home"/></sapn>　Dashbord</nuxt-link>
             <nuxt-link class="nav-link py-3 nav-color" to="/mypages/1/profiles"><sapn><font-awesome-icon icon="user"/></sapn>　 Profile</nuxt-link>
-            <nuxt-link class="nav-link py-3 nav-color" to="/mypages/1/follows"><sapn><font-awesome-icon icon="user"/></sapn>　 Follow</nuxt-link>
             <nuxt-link class="nav-link py-3 nav-color" to="/mypages/1/reviews/"><sapn><font-awesome-icon icon="star"/></sapn>　Reviews</nuxt-link>
             <nuxt-link class="nav-link py-3 nav-color" to="/mypages/1/messages/"><sapn><font-awesome-icon icon="envelope"/></sapn>　Messages</nuxt-link>
             <nuxt-link class="nav-link py-3 nav-color" to="/mypages/1/nortifications/"><sapn><font-awesome-icon icon="bell"/></sapn>　 Notifications</nuxt-link>

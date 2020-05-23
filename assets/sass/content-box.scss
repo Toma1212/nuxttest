@@ -1,0 +1,89 @@
+
+.content-header {
+    border-bottom: thin solid $border-color;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+}
+
+submit-btn {
+    width:100%;
+}
+// input:text
+
+.content-input-body {
+	position: relative;
+	width: 80%;
+	margin: 40px 3%;
+}
+.content-input-body input[type='text'],
+.content-input-body input[type='password'] {
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	letter-spacing: 1px;
+	padding-left: 4em;
+}
+
+.content-input-body input[type='text']:focus,
+.content-input-body input[type='password']:focus{
+	outline: none;
+}
+
+.content-input {
+	padding: 4px 0;
+	border: 0;
+	border-bottom: 1px solid $border-color;
+	background-color: transparent;
+}
+
+.content-input~ .focus_line {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 2px;
+	transition: 0.4s;
+	background-color: $primary;
+}
+
+.content-input ~ .focus_line {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 2px;
+	transition: 0.4s;
+	background-color: $primary;
+}
+
+.content-input:focus ~ .focus_line,
+.content-input-body.content-input ~ .focus_line {
+	left: 0;
+	width: 100%;
+	transition: 0.4s;
+}
+
+.content-input ~ label {
+	position: absolute;
+	z-index: 3;
+	top: 4px;
+	left: 0;
+	width: 100%;
+	transition: 0.3s;
+	letter-spacing: 0.5px;
+	color: $border-color;
+}
+
+.content-input:focus ~ label, content-input-body.content-input ~ label {
+	font-size: 12px;
+	top: -16px;
+	transition: 0.3s;
+	color: #da3c41;
+}
+
+// input:file
+
+.content-input-file-body {
+    width: 80%;
+    color: $border-color;
+}

@@ -2,11 +2,17 @@
 // Variables
 @import 'variables';
 
-// common
+// // common
+@import 'typografy';
+
+// // common
 @import 'common';
 
 //  dashboard
 @import 'mypage/dashboard';
+
+//  dashboard
+@import 'content-box';
 
 // bootstrap
 @import '~bootstrap/scss/bootstrap';
