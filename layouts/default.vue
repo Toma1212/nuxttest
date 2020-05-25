@@ -7,8 +7,8 @@
 
 
 <script>
-import navbar from '../components/header.vue'
-import footbar from '../components/footer.vue'
+import navbar from '../components/nav/header.vue'
+import footbar from '../components/nav/footer.vue'
 
 export default {
     components: {
