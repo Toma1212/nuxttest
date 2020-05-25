@@ -4,16 +4,16 @@
             <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
                 <mypageMenu />
             </div>
-            <main class="col-12 col-md-9 col-xl-10 py-md-5 bd-content mypage">
+            <main class="col-12 col-md-9 col-xl-10 py-md-3 bd-content mypage">
                 <div class="dashboard">
 
                     <div class="row"> 
-                        <div class="col-11 col-lg-11 mypage-content p-4 mx-5 ">
-                            <div class="input-group">
-                                <input type="text" placeholder="Newest Rating" class="form-control" aria-label="Text input with segmented dropdown button">
+                        <div class="col-11 col-lg-11 mypage-content p-4 mx-4 ">
+                            <div class="input-group content-input">
+                                <input type="text" placeholder="Newest Rating" class="form-control content-input" aria-label="Text input with segmented dropdown button">
                                 <div class="input-group-append">
-                                    <button type="button" class="btn"><font-awesome-icon icon="times"/></button>
-                                    <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="btn "><font-awesome-icon icon="times" class="icon-gray"/></button>
+                                    <button type="button" class="dropdown-toggle dropdown-toggle-split icon-gray" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <span class="sr-only">Toggle Dropdown</span>
                                     </button>
                                         <div class="dropdown-menu">
@@ -29,7 +29,7 @@
                     </div>
                     
                     <div class="row"> 
-                        <div class="col-11 col-lg-11 mypage-content p-5 mx-5 mt-4">
+                        <div class="col-11 col-lg-11 mypage-content p-5 mx-4 mt-4">
                             <table class="table">
                                 <thead >
                                     <tr>

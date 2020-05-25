@@ -63,6 +63,7 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     'nuxt-fontawesome',
+    '@nuxtjs/vuetify',
   ],
   /*
   ** Axios module configuration

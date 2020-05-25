@@ -5,12 +5,12 @@
                 <mypageMenu />
             </div>
             <main class="col-12 col-xl-10 py-md-4 bd-content mypage">
-                <div class="mypage-content p-4 mx-3 ">
+                <div class="mypage-content p-4 mx-2 ">
                     <a class="btn btn-primary text-white" href="#"><sapn><font-awesome-icon icon="user"/></sapn>　View Profile</a>
                 </div>
 
                 <form>   
-                    <div class="mypage-content mx-3 mt-4 p-3">
+                    <div class="mypage-content mx-2 mt-4 p-3">
                         <header class="content-header">
                             <h6>BASIC INFO</h6>
                         </header>
@@ -91,7 +91,7 @@
                         </div>
 
 
-                    <div class="mypage-content mx-3 mt-4 p-3">
+                    <div class="mypage-content mx-2 mt-4 p-3">
                         <header class="content-header">
                             <h6>FOLOOW&CONTACT</h6>
                         </header>
@@ -122,7 +122,7 @@
 
                         </div>
                 
-                    <div class="mypage-content mx-3 mt-4 p-3">
+                    <div class="mypage-content mx-2 mt-4 p-3">
                         <header class="content-header">
                             <h6>CHANGE PASSWORD</h6>
                         </header>
