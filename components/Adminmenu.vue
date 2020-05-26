@@ -9,15 +9,15 @@
             <h5 class="card-title mb-4">xxxxxxxxxxxxxx</h5>
         </div>
         <nav class="pl-3 pt-3">
-            <nuxt-link class="nav-link py-3 nav-color" to="/mypages/1/"><sapn><font-awesome-icon icon="home"/></sapn>　Dashbord</nuxt-link>
-            <nuxt-link class="nav-link py-3 nav-color" to="/mypages/1/profiles"><sapn><font-awesome-icon icon="user"/></sapn>　 Profile</nuxt-link>
-            <nuxt-link class="nav-link py-3 nav-color" to="/mypages/1/reviews/"><sapn><font-awesome-icon icon="star"/></sapn>　Reviews</nuxt-link>
-            <nuxt-link class="nav-link py-3 nav-color" to="/mypages/1/messages/"><sapn><font-awesome-icon icon="envelope"/></sapn>　Messages</nuxt-link>
-            <nuxt-link class="nav-link py-3 nav-color" to="/mypages/1/nortifications/"><sapn><font-awesome-icon icon="bell"/></sapn>　 Notifications</nuxt-link>
-            <nuxt-link class="nav-link py-3 nav-color" to="/mypages/1/billing/"><sapn><font-awesome-icon icon="home"/></sapn>　Biliings</nuxt-link>
-            <nuxt-link class="nav-link py-3 nav-color" to="/mypages/1/favorites/"><sapn><font-awesome-icon icon="heart"/></sapn>　Favarites</nuxt-link>
-            <nuxt-link class="nav-link py-3 nav-color" to="/mypages/1/techs/"><sapn><font-awesome-icon icon="list-alt"/></sapn>　Technologies</nuxt-link>                    
-            <nuxt-link class="nav-link py-3 nav-color" to="/mypages/1/offerings/"><sapn><font-awesome-icon icon="list-alt"/></sapn>　Public Offerings</nuxt-link>
+            <nuxt-link class="nav-link py-3 nav-color" to="/admin/"><sapn><font-awesome-icon icon="home"/></sapn>　Dashbord</nuxt-link>
+            <nuxt-link class="nav-link py-3 nav-color" to="/admin/admin-user"><sapn><font-awesome-icon icon="user"/></sapn>　 Profile</nuxt-link>
+            <nuxt-link class="nav-link py-3 nav-color" to="/admin/advertise"><sapn><font-awesome-icon icon="star"/></sapn>　advertise</nuxt-link>
+            <nuxt-link class="nav-link py-3 nav-color" to="/admin/reviews"><sapn><font-awesome-icon icon="star"/></sapn>　reviews</nuxt-link>
+            <nuxt-link class="nav-link py-3 nav-color" to="/admin/messages/"><sapn><font-awesome-icon icon="envelope"/></sapn>　Messages</nuxt-link>
+            <nuxt-link class="nav-link py-3 nav-color" to="/admin/nortifications/"><sapn><font-awesome-icon icon="bell"/></sapn>　 Notifications</nuxt-link>
+            <nuxt-link class="nav-link py-3 nav-color" to="/admin/offering"><sapn><font-awesome-icon icon="star"/></sapn>　offering</nuxt-link>
+            <nuxt-link class="nav-link py-3 nav-color" to="/admin/tech/"><sapn><font-awesome-icon icon="list-alt"/></sapn>　Technologies</nuxt-link>                    
+            <nuxt-link class="nav-link py-3 nav-color" to="/admin/user"><sapn><font-awesome-icon icon="list-alt"/></sapn>　Public Offerings</nuxt-link>
             <nuxt-link class="nav-link py-3 nav-color" to="/"><sapn><font-awesome-icon icon="sign-out-alt"/></sapn>　Logout</nuxt-link>
         </nav>
     </div>

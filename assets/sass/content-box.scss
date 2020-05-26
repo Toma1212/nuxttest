@@ -21,7 +21,7 @@ submit-btn {
 	box-sizing: border-box;
 	width: 100%;
 	letter-spacing: 1px;
-	padding-left: 4em;
+    padding-left: 4em;
 }
 
 .content-input-body input[type='text']:focus,
@@ -33,7 +33,8 @@ submit-btn {
 	padding: 4px 0;
 	border: 0;
 	border-bottom: 1px solid $border-color;
-	background-color: transparent;
+    background-color: transparent;
+    color: $text-color;
 }
 
 .content-input~ .focus_line {
